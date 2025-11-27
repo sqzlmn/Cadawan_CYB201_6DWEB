@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:900|Raleway:500,700");
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: #850825;
+  color: #fbccbf;
+  margin: 0px;
+  background-image: url("candy.png");
+  background-size: 245px 380px;
+  background-position: right top;
+  background-repeat: repeat-y;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  padding: 10px 20px 12px 20px;
+  margin: 0px;
+  color: #fcba63;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 20px;
+  margin: 0px;
+}
+
+p {
+  padding: 6px 20px 6px 20px;
+  margin: 0px;
+}
+
+table {
+  background-color: #850825;
+  margin: 10px;
+  padding: 5px;
+  border: 1px solid #fbccbf;
+  border-spacing: 0px;
+}
+  
+th {
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 0.75em;
+  letter-spacing: 0.2em;
+  padding: 5px 10px;
+  background-color: #fbccbf;
+  color: #850825;
+}
+  
+td {
+  padding: 5px 10px;
+}
+
+a {
+  color: #fbccbf;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-style: normal;
+  text-decoration: none;
+}
+
+nav {
+  padding: 0.5em;
+  background-color: #730720;
+}
+
+nav a {
+  text-transform: uppercase;
+  padding: .5em;
+}
+nav a:hover {
+  color: #fff;
+}
+ 
+.button {
+  background-color: #fbccbf;
+  color: #850825;
+  border-color: #fbccbf;
+  border-radius: 300px;
+  -webkit-transition: .3s background-color linear;
+  -moz-transition: .3s background-color linear;
+  -o-transition: .3s background-color linear;
+  transition: .3s background-color linear;
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 1px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  background-color: #fcba63;
+  border-radius: 300px;
+  -webkit-transition: .1s background-color linear;
+  -moz-transition: .1s background-color linear;
+  -o-transition: .1s background-color linear;
+  transition: .1s background-color linear;
+  color: #850825;
+}
+  
+.offer {
+  text-transform: uppercase;  
+}
+
+footer {
+  background-color: #730720;
+  padding: 10px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+/*TEKA*/
+h2{
+        position: fixed;
+        bottom: 70px;
+        left: 20px;
+        font-size: 3rem;
+        font-weight: bold;
+        color: red;
+        background: yellow;
+        padding: 10px 20px;
+        border: 3px solid red;
+        border-radius: 8px;
+    }
+    p,h3,h1,h2 {
+            text-align: center;
+    }
+    h2 {font-style: italic;}
+    ul {list-style-type: none;
+        text-align:center;
+    }
+    div {
+        border: 15px solid maroon;
+        font-size: 3rem;
+    }
