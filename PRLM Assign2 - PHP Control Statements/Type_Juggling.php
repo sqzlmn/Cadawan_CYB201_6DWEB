@@ -5,7 +5,7 @@ SECTION: CYB201
 
 This Includes:
 TYPE JUGGLING
-FOR EACH
+SWITCHCASE
 */
 $menu1 = ["Cappuccino", "Americano", "Frappe", "Caramel Macchiato", "Pink Drink"];
 $menu2 = [150, 150, 150, 150, 150];
@@ -88,4 +88,5 @@ switch(true){
         ?>
     </div>
 </body>
+
 </html>
