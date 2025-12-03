@@ -1,0 +1,54 @@
+    /* Global body styling */
+    body { 
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+        margin: 20px;
+        background-color: #f8f9fa;
+        color: #7a611c;
+        background-image: url("https://cdn.informaconnect.com/platform/files/public/starbucks-roastery-6.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    /* Heading styling */
+    h1 {
+        color: #7a611c;
+        border-bottom: 2px solid #7a611c;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+        font-size: 1.8em;
+    }
+
+    /* Table container styling */
+    table { 
+        width: 100%; 
+        max-width: 1000px; 
+        border-collapse: collapse; 
+        margin: 20px auto; 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+        background-color: white;
+    }
+
+    /* Table header styling */
+    th { 
+        background-color: #b39f68; 
+        color: #7a611c; 
+        padding: 12px 15px; 
+        text-align: left; 
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        border-bottom: 3px solid #7a611c;
+    }
+
+
+    td:nth-child(2),
+    td:nth-child(3),
+    td:nth-child(4),
+    td:nth-child(5) {
+        text-align: center;
+    }
+    
+    td:nth-child(3) {
+        font-weight: bold;
+    }
