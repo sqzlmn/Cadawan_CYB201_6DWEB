@@ -43,8 +43,9 @@ require "includes/header.php";
             <tr>
                 <td>
                     <?php echo $quantity;
-                    ($quantity === 1) ? "pack" : "packs"
-                    ?> pack(s)
+                    $packs = ($quantity === 1) ? "pack" : "packs"
+                    ?> 
+                    <?= $packs?>
                 </td>
                 <td>PHP <?=$price?></td>
             </tr>
@@ -53,4 +54,5 @@ require "includes/header.php";
 
     <?php require "includes/footer.php"?>
 </body>
+
 </html>
